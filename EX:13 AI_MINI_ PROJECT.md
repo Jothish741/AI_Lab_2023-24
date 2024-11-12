@@ -8,36 +8,36 @@ To develop a machine learning model to analyze public sentiment on Twitter regar
 
 
 ### The working of the Random Forest algorithm in steps:
-```
+
 Step-1: Select random K data points from the training set.  
 Step-2: Build the decision trees associated with the selected data points (Subsets).  
 Step-3: Choose the number N for decision trees that you want to build.  
 Step-4: Repeat Step 1 & 2.  
 Step-5: For new data points, find the predictions of each decision tree, and assign the new data 
 points to the category that wins the majority votes.
-```
+
 
 
 ### Working of Support vector machine:
-```  
+  
 Step-1: Data of finite-dimensional space is mapped to p-dimension and aims at finding p-1 
 dimension.  
 Step-2: Creates two parrel hyperplanes on either side that passes through the nearest data points.  
 Step-3:  The region bound by these two hyperplanes is margin.  
 Step-4: Hyperplanes drawn to classify the data.  
 Step-5: Most stable hyperplane is maximum margin. Margin is distance between two classes. 
-```
+
 
 
 ### Working of Decision tree:  
-```
+
 Step-1: Begin the tree with the root node, say S which contains the complete dataset.  
 Step-2: Find the best attribute in the dataset using Attribute Selection Measure.  
 Step-3: Divide the S into subsets that contains possible values for the best attributes.  
 Step-4: Generate the decision tree node, which contains the best attribute.  
 Step-5: repeat the step 3 until you get a final node.
 
-```
+
 
 
 ### Program:
