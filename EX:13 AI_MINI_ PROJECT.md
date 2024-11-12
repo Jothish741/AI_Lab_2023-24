@@ -3,8 +3,10 @@ ELECTRONIC PRODUCT SALE
 ### DATE:   04/11/24                                                         
 ### REGISTER NUMBER : 212221040094
 ### AIM: 
-To develop a machine learning model to analyze public sentiment on Twitter regarding a specific electronic product sale. By gathering and analyzing tweets. 
+To develop a machine learning model to analyze public sentiment on Twitter regarding a specific electronic product sale. By gathering and analyzing tweets.
+
 ###  Algorithm:
+
 
 ### The working of the Random Forest algorithm in steps:
 ```
@@ -16,6 +18,7 @@ Step-5: For new data points, find the predictions of each decision tree, and ass
 points to the category that wins the majority votes.
 ```
 
+
 ### Working of Support vector machine:
 ```  
 Step-1: Data of finite-dimensional space is mapped to p-dimension and aims at finding p-1 
@@ -26,6 +29,7 @@ Step-4: Hyperplanes drawn to classify the data.
 Step-5: Most stable hyperplane is maximum margin. Margin is distance between two classes. 
 ```
 
+
 ### Working of Decision tree:  
 ```
 Step-1: Begin the tree with the root node, say S which contains the complete dataset.  
@@ -35,6 +39,7 @@ Step-4: Generate the decision tree node, which contains the best attribute.
 Step-5: repeat the step 3 until you get a final node.
 
 ```
+
 
 ### Program:
 
